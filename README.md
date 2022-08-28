@@ -106,6 +106,10 @@ If you want to get out without a fight, choose to `Run`
 
 * <img src="images/github/potion_to_use.PNG">
 
+6. Select Pokemons - Determines which pokemons to catch
+
+* <img src="images/github/pokemons_to_catch.PNG">
+
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
