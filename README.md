@@ -73,14 +73,9 @@
    pip install pywin32
    ```
 3. Download Tesseract-OCR, Install and Set Path in `json/settings.json` (Key : "path_of_tesseract")
-   For Win32
-   ```js
-   https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.2.0.20220712.exe
-   ```
-   For Win64
-   ```js
-   https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe
-   ```
+   * For Win32 - https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.2.0.20220712.exe
+   * For Win64 - https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
