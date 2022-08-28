@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>292</width>
+    <height>928</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Pokemon Planet Bot</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnStart">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>860</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> Start</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblEncounteredPokemon">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-bottom: 1px solid black</string>
+    </property>
+    <property name="text">
+     <string>Encountered Pokemon</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblImageEncounteredPokemon">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>-20</y>
+      <width>128</width>
+      <height>128</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="gbBallSelection">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>360</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Pokeball to Use</string>
+    </property>
+    <widget class="QRadioButton" name="rbPokeball">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rbGreatball">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>20</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rbUltraball">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="imgPokeball">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>19</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="imgGreatball">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>20</y>
+       <width>19</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="imgUltraball">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>20</y>
+       <width>19</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gbSkill">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>420</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Skill to Use</string>
+    </property>
+    <widget class="QRadioButton" name="rbSkill1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>31</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rbSkill2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>20</y>
+       <width>31</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rbSkill3">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>20</y>
+       <width>31</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rbSkill4">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>20</y>
+       <width>31</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rbSkillRun">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>20</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Run</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gbWalkSpeed">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>480</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Walk Speed (Miliseconds)</string>
+    </property>
+    <widget class="QSlider" name="sliderWalkSpeed">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>211</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelWalkSpeed">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>20</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gbPotion">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>540</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Use Potion if Pokemon Health &lt; %50</string>
+    </property>
+    <widget class="QRadioButton" name="rbPotion">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="imgPotion">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>16</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rbSuperPotion">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>20</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="imgSuperPotion">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>20</y>
+       <width>16</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rbHyperPotion">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="imgHyperPotion">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>20</y>
+       <width>16</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rbPotionDontUse">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>20</y>
+       <width>71</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Don't Use</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gbPokemonsToCatch">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>601</y>
+      <width>271</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Pokemons to Catch</string>
+    </property>
+    <widget class="QListWidget" name="listPokemonsToCatch">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>121</width>
+       <height>141</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txtSearch">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>25</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblImageSearch">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>27</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listPokemonsToCatchSelected">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>50</y>
+       <width>121</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::NoSelection</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblList">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>29</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Selected List</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnDeleteList">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>200</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string> Delete List</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gbEncounteredPokemons">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>159</y>
+      <width>271</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Encountered Pokemon List</string>
+    </property>
+    <widget class="QTableView" name="tableEncounteredPokemons">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>231</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>200</number>
+     </attribute>
+     <attribute name="verticalHeaderDefaultSectionSize">
+      <number>20</number>
+     </attribute>
+     <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+      <bool>true</bool>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btnStop">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>860</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> Stop</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="gbWalkType">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>360</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Walk Type</string>
+    </property>
+    <widget class="QRadioButton" name="rbWalkTypeUpDown">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rbWalkTypeLeftRight">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>20</y>
+       <width>41</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="imgUpDown">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="imgLeftRight">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>20</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="lblImageIcon">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>10</y>
+      <width>128</width>
+      <height>128</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

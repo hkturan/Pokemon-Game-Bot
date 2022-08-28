@@ -1,0 +1,13 @@
+{
+    "path_of_tesseract": "C:/Program Files/Tesseract-OCR/tesseract.exe",
+    "walk_type": 2,
+    "skill_to_use": 1,
+    "walk_speed": 0.44,
+    "pokeball_to_use": 1,
+    "pokemons_to_catch": [
+        125,
+        25,
+        100
+    ],
+    "potion_to_use": 1
+}
