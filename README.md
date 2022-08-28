@@ -63,7 +63,7 @@
    ```sh
    git clone https://github.com/hkturan/Pokemon-Game-Bot.git
    ```
-3. Install Python libraries
+2. Install Python libraries
    ```sh
    pip install PyQt5
    pip install opencv-python
@@ -72,9 +72,14 @@
    pip install pyautogui
    pip install pywin32
    ```
-4. Enter your API in `config.js`
+3. Download Tesseract-OCR, Install and Set Path in `json/settings.json` (Key : "path_of_tesseract")
+   For Win32
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.2.0.20220712.exe
+   ```
+   For Win64
+   ```js
+   https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
