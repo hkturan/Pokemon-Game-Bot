@@ -20,6 +20,8 @@ class ObjectDetection:
         (min_val, max_val, min_loc, max_loc) = cv2.minMaxLoc(result)
 
         threshold = 0.8
+        if img_path == ImagePath.first_turn:
+            threshold = 0.95
         if max_val >= threshold:
             object_loc = max_loc
         else:
