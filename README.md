@@ -85,9 +85,26 @@
 
 1. Run `main.py`
 
-2. Choose Pokeball - Used to catch pokemon
+2. Choose Pokeball - Used to catch pokemon (`Pokeball`, `Great Ball` and `Ultra Ball`)
 
-  <img src="images/github/pokeball_to_use.png">
+* <img src="images/github/pokeball_to_use.PNG">
+
+3. Choose Walk Type - Determines the direction the character will go (`Up-Down` and `Left-Right`
+
+* <img src="images/github/walk_type.PNG">
+
+3. Choose Skill - Determines the skill to be used in battle.
+If you want to get out without a fight, choose to `Run`
+
+* <img src="images/github/skill_to_use.PNG">
+
+4. Set Walk Speed - Determines how many seconds the character will walk in one direction
+
+* <img src="images/github/walk_speed.PNG">
+
+5. Choose Potion - Used when the Pokemon health's is below 50%. If you don't want to use it, choose `Don't Use`
+
+* <img src="images/github/potion_to_use.PNG">
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
