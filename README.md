@@ -111,7 +111,7 @@ If you want to get out without a fight, choose to `Run`
 
 * <img src="images/github/walk_speed.PNG">
 
-5. Choose Potion - Used when the Pokemon health's is below 50%. If you don't want to use it, choose `Don't Use`
+5. Choose Potion - Used when the Pokemon health's is below 50%. If you don't want to use it, choose `Don't Use` (`Potion`, `Super Potion` and `Hyper Potion`)
 
 * <img src="images/github/potion_to_use.PNG">
 
