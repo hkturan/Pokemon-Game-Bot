@@ -66,20 +66,10 @@
 3. Install Python libraries
    ```sh
    pip install PyQt5
-   ```
-   ```sh
    pip install opencv-python
-   ```
-   ```sh
    pip install pytesseract
-   ```
-   ```sh
    pip install Pillow
-   ```
-   ```sh
    pip install pyautogui
-   ```
-   ```sh
    pip install pywin32
    ```
 4. Enter your API in `config.js`
