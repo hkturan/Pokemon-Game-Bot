@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/hkturan/Pokemon-Game-Bot">
-    <img src="images/design/icon.png" alt="Logo" width="80" height="80">
+    <img src="images/design/icon.png" alt="Logo" width="128" height="128">
   </a>
 
 <h3 align="center">Pokemon Game Bot</h3>
@@ -44,7 +44,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/github/screenshot.png
 
 ### Built With
 
@@ -85,7 +85,9 @@
 
 1. Run `main.py`
 
-2.
+2. Choose Pokeball - Used to catch pokemon
+
+  <img src="images/github/pokeball_to_use.png">
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
@@ -105,7 +107,5 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 ## Contact
 
 Hasan Kaan TURAN  - hasankaanturan33@gmail.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
