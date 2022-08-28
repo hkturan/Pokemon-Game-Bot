@@ -85,6 +85,11 @@ The project was developed to use python libraries for the game 'Pokemon Planet'.
 
    * For Win32 - https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.2.0.20220712.exe
    * For Win64 - https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.2.0.20220712.exe
+   
+4. Download Game (1600x900 must be downloaded)
+
+  
+  * Pokemon Planet - https://pokemon-planet.com/
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -92,34 +97,36 @@ The project was developed to use python libraries for the game 'Pokemon Planet'.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Run `main.py`
+1. Open Pokemon Planet and Go to a place where you can find pokemon
 
-2. Choose Pokeball - Used to catch pokemon (`Pokeball`, `Great Ball` and `Ultra Ball`)
+2. Run `main.py`
+
+3. Choose Pokeball - Used to catch pokemon (`Pokeball`, `Great Ball` and `Ultra Ball`)
 
 * <img src="images/github/pokeball_to_use.PNG">
 
-3. Choose Walk Type - Determines the direction the character will go (`Up-Down` and `Left-Right`
+4. Choose Walk Type - Determines the direction the character will go (`Up-Down` and `Left-Right`
 
 * <img src="images/github/walk_type.PNG">
 
-3. Choose Skill - Determines the skill to be used in battle.
+5. Choose Skill - Determines the skill to be used in battle.
 If you want to get out without a fight, choose to `Run`
 
 * <img src="images/github/skill_to_use.PNG">
 
-4. Set Walk Speed - Determines how many seconds the character will walk in one direction
+6. Set Walk Speed - Determines how many seconds the character will walk in one direction
 
 * <img src="images/github/walk_speed.PNG">
 
-5. Choose Potion - Used when the Pokemon health's is below 50%. If you don't want to use it, choose `Don't Use` (`Potion`, `Super Potion` and `Hyper Potion`)
+7. Choose Potion - Used when the Pokemon health's is below 50%. If you don't want to use it, choose `Don't Use` (`Potion`, `Super Potion` and `Hyper Potion`)
 
 * <img src="images/github/potion_to_use.PNG">
 
-6. Select Pokemons - Determines which pokemons to catch
+8. Select Pokemons - Determines which pokemons to catch
 
 * <img src="images/github/pokemons_to_catch.PNG">
 
-7. <b>Click Start and Get Enjoy!</b>
+9. <b>Click Start and Get Enjoy!</b>
 
 * <img src="images/github/start.PNG">
 
