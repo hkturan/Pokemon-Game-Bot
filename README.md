@@ -57,6 +57,38 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/hkturan/Pokemon-Game-Bot.git
+   ```
+3. Install Python libraries
+   ```sh
+   pip install PyQt5
+   ```
+   ```sh
+   pip install opencv-python
+   ```
+   ```sh
+   pip install pytesseract
+   ```
+   ```sh
+   pip install Pillow
+   ```
+   ```sh
+   pip install pyautogui
+   ```
+   ```sh
+   pip install pywin32
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## License
 
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
