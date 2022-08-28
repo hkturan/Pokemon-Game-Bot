@@ -60,3 +60,14 @@
 ## License
 
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+
+Distributed under the MIT License. See LICENSE.txt for more information.
+
+<!-- CONTACT -->
+## Contact
+
+Hasan Kaan TURAN  - hasankaanturan33@gmail.com
+
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
