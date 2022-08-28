@@ -1,26 +1,16 @@
-# Pokemon-Game-Bot
-Pokemon Game Bot With Python Libraries
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/hkturan/Pokemon-Game-Bot">
     <img src="images/design/icon.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Pokemon Game Bot</h3>
 
   <p align="center">
-    project_description
+    Pokemon Game Bot With Python Libraries
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    
   </p>
 </div>
 
@@ -50,16 +40,23 @@ Pokemon Game Bot With Python Libraries
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://raw.githubusercontent.com/hkturan/Pokemon-Game-Bot/main/images/screenshot.png)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [product-screenshot]: images/screenshot.png
+
+### Built With
+
+* ![Python](https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
+* ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white) 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## License
+
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
