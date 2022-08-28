@@ -110,6 +110,13 @@ If you want to get out without a fight, choose to `Run`
 
 * <img src="images/github/pokemons_to_catch.PNG">
 
+7. Start and Get Enjoy!
+
+Note : You can stop the bot at any time while the bot is running using the `Stop` button
+
+* <img src="images/github/stop.PNG">
+
+
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
