@@ -41,6 +41,15 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://raw.githubusercontent.com/hkturan/Pokemon-Game-Bot/main/images/screenshot.png)
 
+The project was developed to use python libraries for the game 'Pokemon Planet'. It will not be used for cheating. Project's abilities:
+
+* Automatically finds and fights pokemon
+* Catches which pokemon you want (`Optional`)
+* Uses potion when the Pokemon health's is below 50% (`Optional`)
+* Uses which skill you want used
+* Sets your character's walking time
+* Saves your bot settings for your next use
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
