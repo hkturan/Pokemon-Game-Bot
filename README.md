@@ -50,8 +50,7 @@ The project was developed to use python libraries for the game 'Pokemon Planet'.
 * Sets your character's walking time
 * Saves your bot settings for your next use
 
-**[⬆ back to top](#readme-top)**
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">**[⬆ back to top](#readme-top)**</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [product-screenshot]: images/github/screenshot.png
