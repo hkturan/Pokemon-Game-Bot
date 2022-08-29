@@ -50,7 +50,7 @@ The project was developed to use python libraries for the game 'Pokemon Planet'.
 * Sets your character's walking time
 * Saves your bot settings for your next use
 
-<p align="right">**[⬆ back to top](#readme-top)**</p>
+**[⬆ back to top](#readme-top)**
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [product-screenshot]: images/github/screenshot.png
@@ -60,7 +60,7 @@ The project was developed to use python libraries for the game 'Pokemon Planet'.
 * ![Python](https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
 * ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white) 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**[⬆ back to top](#readme-top)**
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -92,7 +92,7 @@ The project was developed to use python libraries for the game 'Pokemon Planet'.
   * Pokemon Planet - https://pokemon-planet.com/
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**[⬆ back to top](#readme-top)**
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -134,7 +134,7 @@ Note : You can stop the bot at any time while the bot is running using the `Stop
 
 * <img src="images/github/stop.PNG">
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**[⬆ back to top](#readme-top)**
 
 ## License
 
@@ -142,11 +142,11 @@ Note : You can stop the bot at any time while the bot is running using the `Stop
 
 Distributed under the MIT License. See LICENSE.txt for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**[⬆ back to top](#readme-top)**
 
 <!-- CONTACT -->
 ## Contact
 
 Hasan Kaan TURAN  - hasankaanturan33@gmail.com
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**[⬆ back to top](#readme-top)**
